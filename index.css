@@ -1,0 +1,136 @@
+html {
+  font-size: 100%
+}
+
+body {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+  background-color: #F8FFF8;
+  overflow-x: hidden;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.headerContainer.fixed {
+  top: 0;
+  left: 0;
+  position: sticky;
+}
+#header-container {
+  background-color: #27609F;
+  box-shadow: 0px 5px 10px -8px #595959;
+  justify-content: space-between;
+  color: rgb(227, 227, 227);
+}
+.headerLink {
+  text-decoration: none;
+  color: rgb(227, 227, 227);
+}
+.headerLink.button {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+.headerLink:hover {
+  background-color: #0000001b;
+  color: #2D89A3;
+}
+.headerItems {
+  font-weight: 1000;
+  font-size: 1.4rem;
+  margin: 0 0.8rem;
+  padding: 1.3rem 0;
+}
+.right {
+  margin-left: auto;
+}
+.bannerContainerContainer {
+  height: 50vh;
+}
+.bannerContainer{
+  background-color: #A3A3A3;
+  height: 50vh;
+  overflow: hidden;
+  position: static;
+}
+.bannerContainer.row {
+  display: flex;
+  align-items: center;
+}
+.bannerImg {
+  min-width: 100vw;
+}
+.headingText {
+  font-size: 1rem;
+  margin-bottom: 10rem;
+}
+.courseDisplayContainer {
+  margin: 2rem auto;
+  padding: 0 0.2rem;
+  min-height: 15vh;
+  width: 97vw;
+  border: 0.2rem solid rgb(196, 196, 196);
+  border-radius: 6px;
+  text-align: left;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.displayTitleText{
+  margin-left: 1.5rem;
+}
+.courseDisplayFlex {
+  overflow-x: auto;
+  border-radius: 5px;
+}
+.courseCardContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 3fr 1fr 1fr 1fr;
+  justify-content: space-around;
+  border-radius: 5px;
+  margin: 1rem 0.5rem;
+  width: 20vw;
+}
+.courseImg {
+  border-radius: 5px;
+  max-height: 50%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.courseTitle {
+  margin: 0.5rem 0;
+  font-weight: 800;
+  font-size: 1.4rem;
+}
+.courseLanguage {
+  text-decoration: none;
+  color: rgb(120, 120, 120);
+  font-size: 1.2rem;
+}
+.courseUserCount {
+  font-size: 1rem;
+}
+.promoContainer {
+  margin: 2rem 1% 2rem -5px;
+  padding-left: 10px;
+  padding-right: 10%;
+  padding-bottom: 3rem;
+  border-radius: 5px;
+  background-color: #004000;
+  color: rgb(217, 217, 217);
+  font-size: 1.4rem;
+  text-align: center;
+  min-height: 50vh;
+}
+.promoContainer p {
+  text-align: left;
+}
+.promoList {
+  text-align: left;
+  margin-left: 10%;
+}
