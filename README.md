@@ -1,3 +1,11 @@
+# Introduction
+
+This project is an mock language learning course site built in react. The project currently uses data from a data.js file.
+
+# Explanation
+
+The purpose of this project is to learn and practice using react to develop webpages and import and format data with the intention of adding a back-end database that the project will pull data from.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
